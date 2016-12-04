@@ -19,8 +19,8 @@ celery -A watchmaster beat
 ```
 
 
-##To Add A Slave Server : 
-
+##To Add A [Slave](https://github.com/oswalpalash/watch-slave) Server : 
+* Set up Slave as per : [Slave Repo](https://github.com/oswalpalash/watch-slave)
 * Run the python shell prompt:
 ```bash
 python manage.py shell
