@@ -27,5 +27,6 @@ slave_new = slave( slave_hostname=<hostname>, slave_ip=<ip>, slave_location=<loc
 slave_new.save()
 ```
 
-* Make the corresponding changes in the front-end part as well. 
+* Make the corresponding changes in the [WATCH FRONTEND](https://github.com/oswalpalash/watch-frontend)
+ part as well. 
 
