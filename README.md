@@ -8,11 +8,15 @@ The master server framework for monitoring. Click the screenshot to see it runni
 2. Install the python modules described in requirements.txt
 3. Install [rabbitmq-server](https://www.rabbitmq.com/download.html) on the master node.
 4. Run the django server : 
-->`cd watchmaster/`
-->`python manage.py runserver`
+```bash
+cd watchmaster/
+python manage.py runserver
+```
 5. Run the celery beat and celery worker:
-->`celery worker --app=watchmaster -l info --logfile="/tmp/worker.log" `
-->`celery -A watchmaster beat`
+```bash
+celery worker --app=watchmaster -l info --logfile="/tmp/worker.log"
+celery -A watchmaster beat
+```
 
 
 ##To Add A Slave Server : 
