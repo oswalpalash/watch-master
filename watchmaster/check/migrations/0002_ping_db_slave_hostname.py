@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AddField(
             model_name='ping_db',
-            name='slave_hostname',
+            name='subordinate_hostname',
             field=models.CharField(default='HI', max_length=50),
         ),
     ]

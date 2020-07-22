@@ -8,7 +8,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('check', '0002_ping_db_slave_hostname'),
+        ('check', '0002_ping_db_subordinate_hostname'),
     ]
 
     operations = [

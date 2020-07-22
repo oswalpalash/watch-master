@@ -8,7 +8,7 @@ def add(x, y):
 
 from celery.task.schedules import crontab
 from celery.task import periodic_task
-from slaves.models import slave
+from subordinates.models import subordinate
 from check.views import add_ping_log,send_ping_request
 from check.models import monitor_db
 
@@ -38,8 +38,8 @@ def send_alert(target):
 def cron_ping():
 	print "RUNNING CRON FOR PING"
 	monitor_obs = monitor_db.objects.all()
-	slaves_all = slave.objects.all()
+	subordinates_all = subordinate.objects.all()
 	for obj in monitor_obs:
-		for slav in slaves_all:
-			run_ping(obj.target,slav.slave_hostname)
+		for slav in subordinates_all:
+			run_ping(obj.target,slav.subordinate_hostname)
 	
