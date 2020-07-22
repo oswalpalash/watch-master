@@ -7,7 +7,7 @@ from django.db import models
 
 class ping_db(models.Model):
         target=models.CharField(max_length=50)
-	slave_hostname=models.CharField(max_length=50,default="HI")
+	subordinate_hostname=models.CharField(max_length=50,default="HI")
         result=models.CharField(max_length=1000)
         timestamp=models.DateTimeField(auto_now_add=True)
 

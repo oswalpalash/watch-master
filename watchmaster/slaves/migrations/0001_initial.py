@@ -14,12 +14,12 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='slave',
+            name='subordinate',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('slave_ip', models.CharField(max_length=200)),
-                ('slave_hostname', models.CharField(max_length=200)),
-                ('slave_location', models.CharField(max_length=200)),
+                ('subordinate_ip', models.CharField(max_length=200)),
+                ('subordinate_hostname', models.CharField(max_length=200)),
+                ('subordinate_location', models.CharField(max_length=200)),
             ],
         ),
     ]

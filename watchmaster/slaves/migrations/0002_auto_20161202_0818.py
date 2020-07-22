@@ -8,17 +8,17 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('slaves', '0001_initial'),
+        ('subordinates', '0001_initial'),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='slave',
+            model_name='subordinate',
             name='id',
         ),
         migrations.AlterField(
-            model_name='slave',
-            name='slave_ip',
+            model_name='subordinate',
+            name='subordinate_ip',
             field=models.CharField(max_length=50, primary_key=True, serialize=False),
         ),
     ]

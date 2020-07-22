@@ -1,5 +1,5 @@
 from __future__ import absolute_import, unicode_literals
-"""watchmaster URL Configuration
+"""watchmain URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.10/topics/http/urls/
@@ -17,10 +17,10 @@ Including another URLconf
 from django.conf.urls import url,include
 from django.contrib import admin
 from check.views import send_ping,plot,index,test_ping,check_loading_time,stress_test
-from slaves.views import add
+from subordinates.views import add
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^slave/', include('slaves.urls')),
+    url(r'^subordinate/', include('subordinates.urls')),
     url(r'^$', index),
     url(r'^add',add),
     url(r'^ping',send_ping),
