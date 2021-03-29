@@ -32,7 +32,7 @@ Pillow==2.0.0
 policycoreutils-default-encoding==0.1
 prettytable==0.7.2
 pycurl==7.19.0
-Pygments==1.4
+Pygments==2.7.4
 pygobject==3.14.0
 pygpgme==0.3
 pyliblzma==0.5.3
