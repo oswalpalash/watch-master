@@ -34,3 +34,4 @@ slave_new.save()
 * Make the corresponding changes in the [WATCH FRONTEND](https://github.com/oswalpalash/watch-frontend)
  part as well. 
 
+[![Testing Powered By SauceLabs](https://opensource.saucelabs.com/images/opensauce/powered-by-saucelabs-badge-red.png?sanitize=true "Testing Powered By SauceLabs")](https://saucelabs.com)
