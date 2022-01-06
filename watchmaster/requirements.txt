@@ -2,7 +2,7 @@ amqp==2.1.1
 backports.ssl-match-hostname==3.4.0.2
 billiard==3.5.0.2
 boto==2.38.0
-celery==4.0.0
+celery==5.2.2
 chardet==2.2.1
 Cheetah==2.4.4
 cloud-init==0.7.5
