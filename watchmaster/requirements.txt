@@ -28,7 +28,7 @@ mesos.interface==1.1.0
 mesos.native==1.1.0
 mesos.scheduler==1.1.0
 perf==0.1
-Pillow==2.0.0
+Pillow==9.3.0
 policycoreutils-default-encoding==0.1
 prettytable==0.7.2
 pycurl==7.19.0
