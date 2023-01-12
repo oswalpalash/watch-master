@@ -41,7 +41,7 @@ pyudev==0.15
 pyxattr==0.5.1
 PyYAML==3.10
 requests==2.6.0
-rsa==3.1.1
+rsa==4.7
 seobject==0.1
 sepolicy==1.1
 six==1.9.0
